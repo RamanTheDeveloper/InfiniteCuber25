@@ -4,8 +4,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        'fade-text':{
+          '0%': {
+            opacity: '1'
+          },
+          '100%': {
+            opacity: '0'
+          }
+        },
+      },      
       animation:{
-        'fade': 'fade 5s infinite alternate'
+        'fade-text': 'fade-text 5s infinite alternate'
       }
     },
   },

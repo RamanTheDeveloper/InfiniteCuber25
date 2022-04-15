@@ -6,12 +6,11 @@ function Homepage() {
 
   return (
     <>
-        <div className='w-full h-full flex justify-center align-middle bg-gradient-to-r from-gray-500 to-gray-500 z-30'>
-            <img src={bg_img} alt="background" className='bg-center bg-no-repeat bg-cover absolute z-10 '/>
-            <div className='z-30 w-full h-full flex justify-center align-middle text-white font-medium text-6xl lg:translate-y-[30rem]'>
-                <h1 className='w-full h-full text-center align-middle animate-fade-text'>Welcome Cuber</h1>
-            </div>
+        <div className='w-full h-screen flex justify-center align-middle z-30 bg-gradient-to-b from-black to-black-100'>
+            <h1 className='text-white z-30 font-bold text-5xl text-center w-full animate-fade-text lg:translate-y-[30rem] md:translate-y-[15rem]'>Welcome Cuber</h1>
+            <img src={bg_img} alt="background" className='bg-center bg-no-repeat bg-cover absolute z-10 mix-blend-overlay'/>
         </div>
+        
     </>
   )
 }

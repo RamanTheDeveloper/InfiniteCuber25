@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/homepage/Footer';
 import Homepage from './components/homepage/Homepage';
 import InfoCards from './components/homepage/InfoCards';
 import Speedcubing from './components/homepage/Speedcubing';
@@ -11,6 +12,7 @@ function App() {
       <Homepage/>
       <InfoCards/>
       <Speedcubing/>
+      <Footer/>
     </>
   );
 }

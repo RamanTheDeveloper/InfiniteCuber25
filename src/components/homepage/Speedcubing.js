@@ -6,8 +6,8 @@ function Speedcubing() {
 
   return (
     <>
-      <div className='w-full h-auto flex flex-row bg-black gap-5 px-4'>
-        <div className='w-34 h-30'>
+      <div className='w-full h-auto flex flex-row bg-black gap-5 px-4 py-2 justify-center align-middle'>
+        <div className='w-34 h-30 pt-3'>
           <img src={feliksImg} alt="Feliks Zemdegs" />
         </div>
         <div className='text-white flex flex-col w-[30rem] gap-3 p-3'>
